@@ -9,6 +9,7 @@ docker run -i -t fetch
 
 #### Example Usage:
 While the container is running, you can check a URL's fetched file in `/home/usr/*.html`.
+
 If getting metadata, there will also be a `/home/usr/*.metadata` file.
 ```commandline
 Enter the web page(s) you'd like to fetch, space separated.
