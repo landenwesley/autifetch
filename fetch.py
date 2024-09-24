@@ -13,7 +13,6 @@ class CustomHTMLParser(HTMLParser):
 
 def metadata(urls):
     url = urls[1]
-    print("metadata for " + url)
     if (len(urls) > 2):
         print("Only provide one URL to use with the --metadata tag.")
 
@@ -86,7 +85,7 @@ def main():
         else:
             for url in urls:
                 fetch(url)
-
+        print("")
         i = input("fetch: ")
 
     print("quitting")
